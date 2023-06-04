@@ -1,0 +1,17 @@
+﻿<Window x:Class="Proyecto1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto1"
+        mc:Ignorable="d"
+       Title="MODA Y ESTILO" Height="600" Width="900" Background="Coral">
+    <Grid>
+        <Label Content="Boutique" HorizontalAlignment="Left" Margin="346,6,0,0" VerticalAlignment="Top" FontSize="72" FontFamily="Edwardian Script ITC"/>
+        <Label Content="MODA Y ESTILO" HorizontalAlignment="Left" Margin="269,77,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="48"/>
+        <Button Content="Hombres" HorizontalAlignment="Left" Margin="49,292,0,0" VerticalAlignment="Top" FontSize="36" Background="#FFF1BE0A" Click="Button_Click_1"/>
+        <Button Content="Mujeres" HorizontalAlignment="Left" Margin="726,292,0,0" VerticalAlignment="Top" FontSize="36" Background="#FFF1BE0A" Click="Button_Click" RenderTransformOrigin="1.107,-0.18"/>
+        <Image HorizontalAlignment="Left" Height="415" Margin="260,147,0,0" VerticalAlignment="Top" Width="419" Source="/WhatsApp Image 2023-06-01 at 8.51.49 PM.jpeg"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="Proyecto1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Proyecto1"
+        mc:Ignorable="d"
+        Title="MODA Y ESTILO" Height="600" Width="900" Background="Coral">
+    <Grid>
+        <Label Content="Boutique" HorizontalAlignment="Left" Margin="346,6,0,0" VerticalAlignment="Top" FontSize="72" FontFamily="Edwardian Script ITC"/>
+        <Label Content="MODA Y ESTILO" HorizontalAlignment="Left" Margin="269,77,0,0" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="48"/>
+        <Label Content="Ingrese Usuario:" HorizontalAlignment="Left" Margin="126,240,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox x:Name="txtusuario" HorizontalAlignment="Left" Margin="410,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="221" FontSize="36"/>
+        <Label Content="Contrasena:" HorizontalAlignment="Left" Margin="126,352,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="341,363,0,0" VerticalAlignment="Top" Width="264" Height="47"/>
+        <Button Content="Ingresar" HorizontalAlignment="Left" Margin="410,477,0,0" VerticalAlignment="Top" FontSize="36" Background="#FFBF1A1A" Click="Button_Click"/>
+        <Image HorizontalAlignment="Left" Height="367" Margin="669,198,0,0" VerticalAlignment="Top" Width="200" Source="/WhatsApp Image 2023-06-01 at 9.02.11 PM.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="230" Margin="27,24,0,0" VerticalAlignment="Top" Width="155" Source="/WhatsApp Image 2023-06-01 at 9.06.41 PM.jpeg"/>
+
+
+    </Grid>
+</Window>
